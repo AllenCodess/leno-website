@@ -42,3 +42,26 @@ body {
   font-size: 20px;
   font-weight: 600;
 }
+
+.nav-icon {
+  color: #22baf6;
+}
+
+/* Hero section */
+
+/* Media Queries */
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 900px) {
+}
+
+@media (max-width: 768px) {
+  .nav-list-container {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+}
