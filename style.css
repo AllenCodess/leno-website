@@ -149,6 +149,21 @@ body {
   height: 700px;
 }
 
+/* testimonies section */
+
+.testimonies {
+  background-color: #262431;
+  color: white;
+}
+
+.testimonial-container {
+  display: flex;
+}
+
+.testimonial-subtext {
+  font-style: italic;
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) {
