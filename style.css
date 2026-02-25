@@ -93,6 +93,56 @@ body {
   background-size: cover;
 }
 
+.hero-content-container {
+  display: flex;
+  align-items: center;
+  padding-top: 12rem;
+  justify-content: center;
+  column-gap: 90px;
+}
+
+.text-container {
+  color: white;
+}
+
+.hero-heading {
+  font-size: 70px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header-highlight {
+  color: #08c0dd;
+}
+
+.hero-subtext {
+  font-size: 25px;
+}
+
+.btn {
+  padding: 1.5rem;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 550;
+  background-color: #08c0dd;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+  border: #08c0dd solid 1px;
+}
+
+.hero-button-container {
+  display: flex;
+  column-gap: 20px;
+  margin-top: 2rem;
+  margin-left: 9rem;
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) {
