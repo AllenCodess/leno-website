@@ -47,6 +47,31 @@ body {
   color: #22baf6;
 }
 
+.mobile-menu {
+  display: none;
+}
+
+.mobile-menu-toggle {
+  cursor: pointer;
+}
+
+.mobile-nav-list-container {
+  position: absolute;
+  top: 95px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  left: 0;
+  opacity: 0.95;
+  padding: 3rem 2rem;
+  text-align: center;
+  height: 100vh;
+}
+
+.mobile-nav-list-items {
+  list-style-type: none;
+  padding: 2rem 0;
+}
+
 /* Hero section */
 
 /* Media Queries */
@@ -60,6 +85,10 @@ body {
 @media (max-width: 768px) {
   .nav-list-container {
     display: none;
+  }
+
+  .mobile-menu {
+    display: block;
   }
 }
 
