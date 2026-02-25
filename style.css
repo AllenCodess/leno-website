@@ -84,6 +84,15 @@ body {
 
 /* Hero section */
 
+.hero {
+  background: url(images/header-background.jpg);
+  width: 100%;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) {
