@@ -158,10 +158,25 @@ body {
 
 .testimonial-container {
   display: flex;
+  margin: 0 auto;
+  padding: 4rem 0;
+  text-align: center;
+  column-gap: 140px;
+  justify-content: center;
 }
 
 .testimonial-subtext {
   font-style: italic;
+  font-size: 19px;
+  line-height: 1.8rem;
+  width: 290px;
+  margin: 2rem 0;
+}
+
+.img-testimonial {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 
 /* Media Queries */
@@ -211,6 +226,13 @@ body {
   .hero-img {
     width: 80%;
     height: 80%;
+  }
+
+  .testimonial-container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    row-gap: 30px;
   }
 }
 
