@@ -22,7 +22,7 @@ body {
 }
 
 .navbar.navbar--scroll {
-  background-color: rgba(38, 36, 49, .8);
+  background-color: rgba(38, 36, 49, 0.8);
   backdrop-filter: blur(10px);
 }
 
@@ -250,6 +250,28 @@ body {
 
 i {
   color: #08c0dd;
+}
+
+/* preview section */
+
+.preview {
+  background-image: url(images/video-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.preview-header-container {
+  color: white;
+}
+
+.preview-container {
+  text-align: center;
+  padding-top: 6rem;
+}
+
+.preview-header {
+  font-size: 40px;
 }
 
 /* Media Queries */
