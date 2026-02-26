@@ -296,6 +296,24 @@ i {
     align-items: center;
     row-gap: 30px;
   }
+
+  .takeaways-grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-item {
+    flex-direction: column-reverse;
+    row-gap: 20px;
+  }
+
+  .grid-item-text-container,
+  .grid-item-header {
+    text-align: center;
+  }
+
+  .takeaways-subtext {
+    width: 90%;
+  }
 }
 
 @media (max-width: 576px) {
