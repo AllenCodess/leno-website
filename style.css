@@ -220,6 +220,7 @@ body {
 .grid-item-text-container {
   width: 85%;
   text-align: right;
+  margin: 0 1rem;
 }
 
 .grid-item-subtext {
@@ -230,6 +231,14 @@ body {
 .takeaways-grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-alignleft {
+  text-align: left;
+}
+
+i {
+  color: #08c0dd;
 }
 
 /* Media Queries */
