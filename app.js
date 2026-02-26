@@ -15,6 +15,6 @@ window.addEventListener("scroll", function () {
   if (this.window.scrollY > 0) {
     navbar.classList.add("navbar--scroll");
   } else {
-      navbar.classList.remove("navbar-scroll")
+      navbar.classList.remove("navbar--scroll")
     }
 })
