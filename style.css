@@ -267,11 +267,22 @@ i {
 
 .preview-container {
   text-align: center;
-  padding-top: 6rem;
+  padding: 6rem 0;
 }
 
 .preview-header {
-  font-size: 40px;
+  font-size: 45px;
+  margin-bottom: 3rem;
+}
+
+.preview-subtext {
+  font-size: 20px;
+  margin-bottom: 4rem;
+}
+
+.preview-img {
+  border-radius: 10px;
+  width: 90%;
 }
 
 /* Media Queries */
