@@ -469,6 +469,10 @@ i {
     display: none;
   }
 
+  .nav-content {
+    max-width: 550px;
+  }
+
   .mobile-menu {
     display: block;
   }
