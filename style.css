@@ -714,6 +714,17 @@ footer {
     width: 400px;
     margin-top: 4rem;
   }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    row-gap: 20px;
+  }
+
+  .footer-subtext {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 576px) {
