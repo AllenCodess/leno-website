@@ -363,6 +363,7 @@ i {
 .screenshots {
   background-color: #2f2c3d;
   color: white;
+  padding: 5rem 0;
 }
 
 .screenshots-header {
@@ -391,6 +392,38 @@ i {
   justify-content: center;
   column-gap: 40px;
   margin-top: 4rem;
+}
+
+/* Downloads */
+
+.download {
+  background: url(images/download-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.downloads-text-content {
+  text-align: center;
+}
+
+.download-content-container {
+  display: flex;
+  align-items: center;
+  padding: 8rem 0;
+  column-gap: 4rem;
+}
+
+.downloads-btn-cotnainer {
+  column-gap: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.downloads-subtext {
+  color: white;
+  font-size: 30px;
 }
 
 /* Media Queries */
