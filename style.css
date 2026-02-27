@@ -146,7 +146,7 @@ body {
 .btn:hover {
   background-color: black;
   color: white;
-  border: #08c0dd solid 1px;
+  border: #08c0dd solid 2px;
 }
 
 .hero-button-container {
@@ -637,6 +637,16 @@ i {
     justify-content: center;
     text-align: center;
     row-gap: 40px;
+  }
+
+  .download-content-container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .downlaods-img {
+    width: 400px;
+    margin-top: 4rem;
   }
 }
 
