@@ -383,6 +383,17 @@ i {
   padding: 8rem 0 2rem 0;
 }
 
+.screenshot-img {
+  width: 250px;
+}
+
+.screenshots-img-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+  margin-top: 4rem;
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) {
@@ -485,6 +496,11 @@ i {
 
   .preview-img {
     width: 80%;
+  }
+
+  .screenshots-img-container {
+    flex-wrap: wrap;
+    row-gap: 30px;
   }
 }
 
