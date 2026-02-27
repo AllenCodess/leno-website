@@ -359,6 +359,30 @@ i {
   flex: 1;
 }
 
+/* screenshots section */
+
+.screenshots {
+  background-color: #2f2c3d;
+  color: white;
+}
+
+.screenshots-header {
+  font-size: 45px;
+  margin-bottom: 1rem;
+}
+
+.screenshots-border {
+  background-color: #08c0dd;
+  width: 375px;
+  height: 3px;
+  margin: 0 auto;
+}
+
+.screenshots-container {
+  text-align: center;
+  padding: 8rem 0 2rem 0;
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) {
