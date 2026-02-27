@@ -291,9 +291,46 @@ i {
   background-color: #262431;
 }
 
+.details-content-container {
+  padding-top: 8rem;
+}
+
 .details-text-container {
   color: white;
+  width: 600px;
 }
+
+.details-content-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 200px;
+}
+
+.details-img {
+  width: 550px;
+}
+
+.details-header {
+  font-size: 33px;
+  margin-bottom: 2rem;
+}
+
+.details-subtext {
+  font-size: 18px;
+}
+
+.details-btn {
+  margin-top: 2rem;
+  padding: 20px 45px;
+}
+
+.details-link {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) {
