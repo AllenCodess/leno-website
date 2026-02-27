@@ -355,8 +355,7 @@ i {
 .details-stats-container {
   display: flex;
   margin: 8rem auto;
-  column-gap: 100px;
-  flex: 1;
+  column-gap: 90px;
 }
 
 /* screenshots section */
