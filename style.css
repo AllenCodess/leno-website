@@ -285,6 +285,15 @@ i {
   width: 90%;
 }
 
+/* Details section */
+
+.details {
+  background-color: #262431;
+}
+
+.details-text-container {
+  color: white;
+}
 /* Media Queries */
 
 @media (max-width: 1200px) {
