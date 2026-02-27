@@ -297,7 +297,7 @@ i {
 
 .details-text-container {
   color: white;
-  width: 600px;
+  width: 700px;
 }
 
 .details-content-flex {
@@ -307,8 +307,17 @@ i {
   column-gap: 200px;
 }
 
+.details-content-flex-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 8rem;
+  align-items: center;
+  justify-content: center;
+  column-gap: 200px;
+}
+
 .details-img {
-  width: 550px;
+  width: 500px;
 }
 
 .details-header {
@@ -317,7 +326,8 @@ i {
 }
 
 .details-subtext {
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 1.7rem;
 }
 
 .details-btn {
@@ -403,6 +413,23 @@ i {
 
   .takeaways-subtext {
     width: 90%;
+  }
+
+  .details-content-flex {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .details-text-container {
+    width: 90%;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .details-content-flex-reverse {
+    flex-direction: column;
+
+    margin: 4rem auto;
   }
 }
 
