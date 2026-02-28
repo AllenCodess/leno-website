@@ -188,8 +188,29 @@ body {
   background-color: #2f2c3d;
 }
 
+.pricing-header {
+  text-align: center;
+  padding: 4rem 0;
+  color: white;
+  font-size: 45px;
+}
+
 .pricing-plan {
   background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+}
+
+.pricing-plan-container {
+  display: flex;
+  column-gap: 20px;
+  justify-content: space-around;
+  border: 1px solid white;
+}
+
+.pricing-plan-list {
+  list-style: none;
 }
 /* testimonies section */
 
