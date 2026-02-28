@@ -144,9 +144,9 @@ body {
 }
 
 .btn:hover {
-  background-color: black;
+  background-color: #262431;
   color: white;
-  border: #08c0dd solid 2px;
+  border: #08c0dd solid 3px;
 }
 
 .hero-button-container {
@@ -197,20 +197,37 @@ body {
 
 .pricing-plan {
   background-color: rgba(255, 255, 255, 0.1);
-  padding: 1rem;
-  border-radius: 10px;
+  padding: 2.1rem;
+  border-radius: 20px;
   color: white;
 }
 
 .pricing-plan-container {
   display: flex;
-  column-gap: 20px;
+  column-gap: 60px;
   justify-content: space-around;
-  border: 1px solid white;
+  text-align: center;
+}
+
+.plan-cost {
+  font-size: 60px;
+  color: #08c0dd;
+  padding-bottom: 2rem;
 }
 
 .pricing-plan-list {
   list-style: none;
+  text-align: left;
+}
+
+.pricing-plan-list-items {
+  padding-bottom: 1rem;
+  font-size: 18px;
+}
+
+.pricing-btn-container {
+  display: flex;
+  justify-content: space-around;
 }
 /* testimonies section */
 
