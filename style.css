@@ -160,6 +160,28 @@ body {
   height: 700px;
 }
 
+/* Details.html section */
+
+.details-heading {
+  margin-top: 4rem;
+  font-size: 40px;
+}
+
+.details-hero {
+  background: url(images/header-background.jpg);
+  width: 100%;
+  padding-bottom: 5rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.details-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 1.4rem 0;
+}
+
 /* testimonies section */
 
 .testimonies {
