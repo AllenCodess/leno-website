@@ -812,6 +812,22 @@ footer {
     width: 90%;
     margin: 0 auto;
   }
+
+  .pricing-plan-container {
+    flex-direction: column;
+    row-gap: 30px;
+    width: 80%;
+  }
+
+  .pricing-btn {
+    display: none;
+  }
+
+  .notes-list-items {
+    padding-bottom: 2rem;
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 576px) {
