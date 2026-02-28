@@ -229,6 +229,24 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
+/* notes */
+
+.notes {
+  background-color: #262431;
+  color: #9f9caf;
+}
+
+.notes-list {
+  list-style: none;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.notes-list-items {
+  font-size: 20px;
+}
+
 /* testimonies section */
 
 .testimonies {
