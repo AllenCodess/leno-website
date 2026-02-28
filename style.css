@@ -535,6 +535,7 @@ i {
   column-gap: 20px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 3rem;
 }
 
 .feature-heading {
