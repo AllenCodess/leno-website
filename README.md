@@ -1,5 +1,3 @@
-## 🚧 This site is under construction 🚧
-
 # Leno Website
 
 This website practices html,css and a little js
