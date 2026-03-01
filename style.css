@@ -221,7 +221,7 @@ body {
 }
 
 .pricing-plan-list-items {
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
   font-size: 18px;
 }
 
@@ -865,6 +865,14 @@ footer {
     padding-bottom: 2rem;
     width: 80%;
     margin: 0 auto;
+  }
+
+  .features-container {
+    width: 90%;
+  }
+
+  .details-heading {
+    margin-left: 2rem;
   }
 }
 
